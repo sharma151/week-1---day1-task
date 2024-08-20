@@ -29,7 +29,7 @@
         <div>
             <aside>
                 <h1>Let's Talk</h1>
-                <p>Have some big idea or brand to develop and need help? then reach out wed love to hear about your
+                <p>Have some big idea or brand to develop and need help? then reach out we'd love to hear about your
                     project and provide help</p><br>
                 <h3>Email</h3>
                 <p>beebs@gmail.com</p><br>
@@ -42,23 +42,37 @@
                 </ul>
             </aside>
             <section class="form">
-                <label for="name">Name</label><br>
-                <input type="text" id="name" name="name" required><br>
+                <form action="">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label>What service are you interested in</label><br>
+                    <!-- <input type="email" id="email" value="select project type" required><br> -->
+                    <select name="cars" id="cars">
+                        <option value="drop1">select project type</option>
+                        <option value="drop1">dropdown1</option>
+                        <option value="drop2">dropdown2</option>
+                        <option value="drop3">dropdown3</option>
 
-                <label for="email">Email</label><br>
-                <input type="email" id="email" name="email" required><br>
-                <label>What service are you interested in</label><br>
-                <input type="email" id="email" value="select project type" required><br>
-                <label for="email">budget</label><br>
-                <input type="budget" id="email" name="email" value="select project budget" required><br>
-                <label for="email">Message</label><br>
-                <input type="text" id="messagebox"><br>
-                <button type="submit">Submit</button>
+                    </select><br>
+                    <label for="email">budget</label><br>
+                    <!-- <input type="budget" id="email" name="email" value="select project budget" required><br> -->
+                    <select name="cars" id="cars">
+                        <option value="drop1">select project budget</option>
+                        <option value="drop1">dropdown1</option>
+                        <option value="drop2">dropdown2</option>
+                        <option value="drop3">dropdown3</option>
 
+                    </select><br>
+                    <label for="email">Message</label><br>
+                    <input type="text" id="messagebox"><br>
+                    <button type="submit">Submit</button>
+                </form>
             </section>
         </div>
     </header>
-    <script src="https://kit.fontawesome.com/b22a4ae60f.js" crossorigin="anonymous"></script>
+
 
 
 </body>

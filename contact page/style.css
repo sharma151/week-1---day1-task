@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gilroy";
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 1512px;
+  height: 982px;
+  border: 2px solid black;
+  background-color: #ffffff;
+  position: absolute;
+  left: 400px;
+  top: 100px;
+}
+.logo {
+  font-size: 40px;
+}
+nav {
+  width: 1266px;
+  height: 51px;
+  border: 2px solid black;
+  position: relative;
+  top: 42px;
+  left: 64px;
+}
+.container ul {
+  width: 774px;
+  height: 24px;
+  position: relative;
+  left: 360px;
+  top: -35px;
+}
+.container nav li {
+  display: inline;
+  position: relative;
+
+  left: 400px;
+  margin: 20px;
+}
+.container nav li a {
+  font-family: poppins;
+  right: 40px;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+.secondcontainer {
+  height: 725px;
+  width: 1238px;
+  border: 2px solid black;
+  position: absolute;
+  top: 205px;
+  left: 93px;
+}
+aside {
+  width: 538px;
+  height: 558px;
+  border: 2px solid black;
+  margin-top: 83.5px;
+}
+.cont1 {
+  height: 192px;
+  width: 538px;
+  border: 2px solid black;
+}
+.cont1 h1 {
+  font-size: 64px;
+}
+.cont1 p {
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 400;
+}
+.email {
+  height: 85px;
+  width: 152px;
+  border: 2px solid black;
+  position: relative;
+  top: 24px;
+}
+.email h3 {
+  font-size: 32px;
+}
+.email p {
+  margin-top: 18px;
+  font-family: poppins;
+  font-size: 16px;
+}
+.social {
+  height: 173px;
+  width: 102px;
+  border: 2px solid black;
+  position: relative;
+  top: 100px;
+}
+.social h3 {
+  font-size: 32px;
+}
+.social a {
+  font-family: poppins;
+  padding-bottom: 30px;
+  color: black;
+}
+
+form {
+  height: 725px;
+  width: 565px;
+  border: 2px solid black;
+  position: inherit;
+  left: 673px;
+  top: -1px;
+}
+label {
+  font-size: 14px;
+  font-family: poppins;
+}
+input {
+  height: 46px;
+  width: 563px;
+  background-color: #f7f7f7;
+  border: none;
+  margin-top: 6px;
+}
+select {
+  height: 46px;
+  width: 563px;
+  background-color: #f7f7f7;
+  border: none;
+  margin-top: 6px;
+}
+#messagebox {
+  height: 165px;
+}
+button {
+  position: relative;
+  top: 181px;
+  background-color: black;
+  color: white;
+  font-family: poppins;
+  width: 565px;
+  height: 56px;
+  padding: 13px 246px 13px 246px;
+}
