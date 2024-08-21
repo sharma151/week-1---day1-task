@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+
+            <nav>
+                <h2 class="logo">Beebs.</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><u><a href="#">contact</a></u></li>
+
+                </ul>
+            </nav>
+        </header>
+        <div class="secondcontainer">
+            <aside>
+                <div class="cont1">
+                    <h1>Let's Talk</h1>
+                    <p>Have some big idea or brand to develop and need help? then reach out we'd love to hear about your
+                        project and provide help</p>
+                </div>
+                <div class="emailinfo">
+                    <h3>Email</h3>
+                    <p>beebs@gmail.com</p>
+                </div>
+                <div class="social">
+                    <h3>Socials</h3>
+
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+
+                </div>
+            </aside>
+            <form id="myForm">
+                <section class="name">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" required>
+                </section>
+                <section class="email">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" required>
+                </section>
+                <section class="projectype">
+                    <label>What service are you interested in</label><br>
+                    
+                    <select name="projecttype" id="projecttype">
+                        <option value="drop1">select project type</option>
+                        <option value="drop1">Dropdown1</option>
+                        <option value="drop2">Dropdown2</option>
+                        <option value="drop3">Dropdown3</option>
+
+                    </select>
+                </section>
+                <section class="projectbudget">
+                    <label for="email">budget</label><br>
+                    
+                    <select name="projectbudget" id="projectbudget">
+                        <option value="drop1" selected disabled hidden>select project budget</option>
+                        <option value="drop1">Dropdown1</option>
+                        <option value="drop2">Dropdown2</option>
+                        <option value="drop3">Dropdown3</option>
+
+                    </select>
+                </section>
+                <section class="message">
+                    <label for="email">Message</label><br>
+                    <input type="text" id="messagebox"><br>
+                </section>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('myForm').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent the form from submitting the traditional way
+
+            // Capture the form data
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const projecttype = document.getElementById('projecttype').value;
+            const projectbudget = document.getElementById('projectbudget').value;
+            const messagebox = document.getElementById('messagebox').value;
+
+            // Display the captured data in the console
+            console.log("Name:", name);
+            console.log("Email:", email);
+            console.log("projecttype:", projecttype);
+            console.log("projectBudget:", projectbudget);
+            console.log("message", messagebox);
+        });
+    </script>
+</body>
+
+</html>
