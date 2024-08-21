@@ -138,6 +138,7 @@ label {
   height: 82px;
   width: 100%;
   padding-top: 10px;
+  margin-bottom: 15px;
 }
 .message {
   height: 201px;
@@ -149,6 +150,9 @@ input {
   background-color: #f7f7f7;
   border: none;
   margin-top: 6px;
+  font-size: 14px;
+  font-family: poppins;
+  padding-left: 10px;
 }
 option {
   font-size: 30px;
@@ -166,13 +170,13 @@ select {
 
 #messagebox {
   height: 165px;
-  padding: 14px 0 290px 0;
+  padding: 20px 0px 260px 10px;
   border: none;
   font-size: 20px;
 }
 button {
   position: relative;
-  top: 146px;
+  top: 120px;
   background-color: black;
   color: white;
   font-family: poppins;
