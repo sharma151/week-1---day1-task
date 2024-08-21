@@ -34,7 +34,7 @@
                     <p>Have some big idea or brand to develop and need help? then reach out we'd love to hear about your
                         project and provide help</p>
                 </div>
-                <div class="email">
+                <div class="emailinfo">
                     <h3>Email</h3>
                     <p>beebs@gmail.com</p>
                 </div>
@@ -46,30 +46,40 @@
                 </div>
             </aside>
             <form id="myForm">
-                <label for="name">Name</label><br>
-                <input type="text" id="name" name="name" required><br>
-                <label for="email">Email</label><br>
-                <input type="email" id="email" name="email" required><br>
-                <label>What service are you interested in</label><br>
-                <!-- <input type="email" id="email" value="select project type" required><br> -->
-                <select name="projecttype" id="projecttype">
-                    <option value="drop1">select project type</option>
-                    <option value="drop1">dropdown1</option>
-                    <option value="drop2">dropdown2</option>
-                    <option value="drop3">dropdown3</option>
+                <section class="name">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" required>
+                </section>
+                <section class="email">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" required>
+                </section>
+                <section class="projectype">
+                    <label>What service are you interested in</label><br>
+                    <!-- <input type="email" id="email" value="select project type" required><br> -->
+                    <select name="projecttype" id="projecttype">
+                        <option value="drop1">select project type</option>
+                        <option value="drop1">dropdown1</option>
+                        <option value="drop2">dropdown2</option>
+                        <option value="drop3">dropdown3</option>
 
-                </select><br>
-                <label for="email">budget</label><br>
-                <!-- <input type="budget" id="email" name="email" value="select project budget" required><br> -->
-                <select name="projectbudget" id="projectbudget">
-                    <option value="drop1">select project budget</option>
-                    <option value="drop1">dropdown1</option>
-                    <option value="drop2">dropdown2</option>
-                    <option value="drop3">dropdown3</option>
+                    </select>
+                </section>
+                <section class="projectbudget">
+                    <label for="email">budget</label><br>
+                    <!-- <input type="budget" id="email" name="email" value="select project budget" required><br> -->
+                    <select name="projectbudget" id="projectbudget">
+                        <option value="drop1">select project budget</option>
+                        <option value="drop1">dropdown1</option>
+                        <option value="drop2">dropdown2</option>
+                        <option value="drop3">dropdown3</option>
 
-                </select><br>
-                <label for="email">Message</label><br>
-                <input type="text" id="messagebox"><br>
+                    </select>
+                </section>
+                <section class="message">
+                    <label for="email">Message</label><br>
+                    <input type="text" id="messagebox"><br>
+                </section>
                 <button type="submit">Submit</button>
             </form>
         </div>
